@@ -25,10 +25,25 @@
 
 <body>
   <main>
-    <div id="canvasHolder"></div>
+    <div id="canvasHolder">
+      <div id="snowBtn"
+        class="flex justify-center items-center z-[7] bg-white w-[100px] h-[30px] absolute top-5 right-3"
+        onclick="addSnow()">
+        SNOW
+      </div>
+      <div id="snowBtn"
+        class="flex justify-center items-center z-[7] bg-white w-[100px] h-[30px] absolute top-5 right-32"
+        onclick="addRain()">
+        RAIN
+      </div>
+      <div id="snowBtn" class="flex justify-center items-center z-[7] bg-white w-[45px] h-[45px] absolute top-5 left-3"
+        onclick="">
+        <input type="color" name="" id="color">
+      </div>
+    </div>
   </main>
   <div class="flex absolute inset-0 bg-[#1d1f39] justify-center items-center" id="loadingScreen"></div>
-  <div class="flex relative h-[100dvh] bg-[#1d1f39]" id="startSection">
+  <div class="flex relative h-[100dvh] bg-[#1d1f39] z-[8]" id="startSection">
     <h1 class="text-[40px] text-white hover:text-violet-600 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
       onclick="start()">
       Start</h1>

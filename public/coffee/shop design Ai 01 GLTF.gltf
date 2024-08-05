@@ -6748,7 +6748,7 @@
             "componentType": 5123,
             "count": 228,
             "max": [
-                87
+                79
             ],
             "min": [
                 0
@@ -6760,7 +6760,7 @@
             "bufferView": 1,
             "byteOffset": 52368,
             "componentType": 5126,
-            "count": 88,
+            "count": 80,
             "max": [
                 0.9994903206825256,
                 0.9998913407325744,
@@ -6776,9 +6776,9 @@
         {
             "name": "polySurfaceShape22#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 53424,
+            "byteOffset": 53328,
             "componentType": 5126,
-            "count": 88,
+            "count": 80,
             "max": [
                 -65.55330657958985,
                 506.1386413574219,
@@ -6796,17 +6796,17 @@
             "bufferView": 2,
             "byteOffset": 34912,
             "componentType": 5126,
-            "count": 88,
+            "count": 80,
             "max": [
-                0.000001508999957877677,
                 1.0,
-                1.0,
+                0.7067463397979736,
+                0.925632119178772,
                 1.0
             ],
             "min": [
-                -0.000010335999832022937,
                 -1.0,
-                -1.0,
+                -0.7067463994026184,
+                -0.925632119178772,
                 1.0
             ],
             "type": "VEC4"
@@ -6816,14 +6816,14 @@
             "bufferView": 3,
             "byteOffset": 17456,
             "componentType": 5126,
-            "count": 88,
+            "count": 80,
             "max": [
-                0.9033454656600952,
-                0.9981773495674132
+                1.0000001192092896,
+                1.0
             ],
             "min": [
-                0.34586143493652346,
-                0.11432862281799317
+                1.1899999918796313e-7,
+                0.0
             ],
             "type": "VEC2"
         },
@@ -6844,7 +6844,7 @@
         {
             "name": "polySurfaceShape21#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 54480,
+            "byteOffset": 54288,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -6862,7 +6862,7 @@
         {
             "name": "polySurfaceShape21#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 58440,
+            "byteOffset": 58248,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -6880,7 +6880,7 @@
         {
             "name": "polySurfaceShape21#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 36320,
+            "byteOffset": 36192,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -6900,7 +6900,7 @@
         {
             "name": "polySurfaceShape21#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 18160,
+            "byteOffset": 18096,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -6930,7 +6930,7 @@
         {
             "name": "polySurface21Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 62400,
+            "byteOffset": 62208,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -6948,7 +6948,7 @@
         {
             "name": "polySurface21Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 85440,
+            "byteOffset": 85248,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -6966,7 +6966,7 @@
         {
             "name": "polySurface21Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 41600,
+            "byteOffset": 41472,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -6986,7 +6986,7 @@
         {
             "name": "polySurface21Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 20800,
+            "byteOffset": 20736,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -7016,7 +7016,7 @@
         {
             "name": "polySurfaceShape12#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 108480,
+            "byteOffset": 108288,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -7034,7 +7034,7 @@
         {
             "name": "polySurfaceShape12#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 112440,
+            "byteOffset": 112248,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -7052,7 +7052,7 @@
         {
             "name": "polySurfaceShape12#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 72320,
+            "byteOffset": 72192,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -7072,7 +7072,7 @@
         {
             "name": "polySurfaceShape12#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 36160,
+            "byteOffset": 36096,
             "componentType": 5126,
             "count": 330,
             "max": [
@@ -7102,7 +7102,7 @@
         {
             "name": "polySurface13Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 116400,
+            "byteOffset": 116208,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -7120,7 +7120,7 @@
         {
             "name": "polySurface13Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 139440,
+            "byteOffset": 139248,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -7138,7 +7138,7 @@
         {
             "name": "polySurface13Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 77600,
+            "byteOffset": 77472,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -7158,7 +7158,7 @@
         {
             "name": "polySurface13Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 38800,
+            "byteOffset": 38736,
             "componentType": 5126,
             "count": 1920,
             "max": [
@@ -7188,7 +7188,7 @@
         {
             "name": "SA_ObjShape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 162480,
+            "byteOffset": 162288,
             "componentType": 5126,
             "count": 2045,
             "max": [
@@ -7206,7 +7206,7 @@
         {
             "name": "SA_ObjShape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 187020,
+            "byteOffset": 186828,
             "componentType": 5126,
             "count": 2045,
             "max": [
@@ -7224,7 +7224,7 @@
         {
             "name": "SA_ObjShape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 108320,
+            "byteOffset": 108192,
             "componentType": 5126,
             "count": 2045,
             "max": [
@@ -7244,7 +7244,7 @@
         {
             "name": "SA_ObjShape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 54160,
+            "byteOffset": 54096,
             "componentType": 5126,
             "count": 2045,
             "max": [
@@ -7274,7 +7274,7 @@
         {
             "name": "SA_Obj9Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 211560,
+            "byteOffset": 211368,
             "componentType": 5126,
             "count": 198,
             "max": [
@@ -7292,7 +7292,7 @@
         {
             "name": "SA_Obj9Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 213936,
+            "byteOffset": 213744,
             "componentType": 5126,
             "count": 198,
             "max": [
@@ -7310,7 +7310,7 @@
         {
             "name": "SA_Obj9Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 141040,
+            "byteOffset": 140912,
             "componentType": 5126,
             "count": 198,
             "max": [
@@ -7330,7 +7330,7 @@
         {
             "name": "SA_Obj9Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 70520,
+            "byteOffset": 70456,
             "componentType": 5126,
             "count": 198,
             "max": [
@@ -7360,7 +7360,7 @@
         {
             "name": "SA_Obj99Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 216312,
+            "byteOffset": 216120,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -7378,7 +7378,7 @@
         {
             "name": "SA_Obj99Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 230496,
+            "byteOffset": 230304,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -7396,7 +7396,7 @@
         {
             "name": "SA_Obj99Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 144208,
+            "byteOffset": 144080,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -7416,7 +7416,7 @@
         {
             "name": "SA_Obj99Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 72104,
+            "byteOffset": 72040,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -7446,7 +7446,7 @@
         {
             "name": "SA_Obj96Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 244680,
+            "byteOffset": 244488,
             "componentType": 5126,
             "count": 42147,
             "max": [
@@ -7464,7 +7464,7 @@
         {
             "name": "SA_Obj96Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 750444,
+            "byteOffset": 750252,
             "componentType": 5126,
             "count": 42147,
             "max": [
@@ -7482,7 +7482,7 @@
         {
             "name": "SA_Obj96Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 163120,
+            "byteOffset": 162992,
             "componentType": 5126,
             "count": 42147,
             "max": [
@@ -7502,7 +7502,7 @@
         {
             "name": "SA_Obj96Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 81560,
+            "byteOffset": 81496,
             "componentType": 5126,
             "count": 42147,
             "max": [
@@ -7532,7 +7532,7 @@
         {
             "name": "SA_ObjShape95#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1256208,
+            "byteOffset": 1256016,
             "componentType": 5126,
             "count": 6384,
             "max": [
@@ -7550,7 +7550,7 @@
         {
             "name": "SA_ObjShape95#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1332816,
+            "byteOffset": 1332624,
             "componentType": 5126,
             "count": 6384,
             "max": [
@@ -7568,7 +7568,7 @@
         {
             "name": "SA_ObjShape95#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 837472,
+            "byteOffset": 837344,
             "componentType": 5126,
             "count": 6384,
             "max": [
@@ -7588,7 +7588,7 @@
         {
             "name": "SA_ObjShape95#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 418736,
+            "byteOffset": 418672,
             "componentType": 5126,
             "count": 6384,
             "max": [
@@ -7618,7 +7618,7 @@
         {
             "name": "SA_Obj94Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1409424,
+            "byteOffset": 1409232,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -7636,7 +7636,7 @@
         {
             "name": "SA_Obj94Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1409712,
+            "byteOffset": 1409520,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -7654,7 +7654,7 @@
         {
             "name": "SA_Obj94Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 939616,
+            "byteOffset": 939488,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -7674,7 +7674,7 @@
         {
             "name": "SA_Obj94Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 469808,
+            "byteOffset": 469744,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -7704,7 +7704,7 @@
         {
             "name": "SA_Obj93Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1410000,
+            "byteOffset": 1409808,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -7722,7 +7722,7 @@
         {
             "name": "SA_Obj93Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1440600,
+            "byteOffset": 1440408,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -7740,7 +7740,7 @@
         {
             "name": "SA_Obj93Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 940000,
+            "byteOffset": 939872,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -7760,7 +7760,7 @@
         {
             "name": "SA_Obj93Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 470000,
+            "byteOffset": 469936,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -7790,7 +7790,7 @@
         {
             "name": "SA_Obj92Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1471200,
+            "byteOffset": 1471008,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -7808,7 +7808,7 @@
         {
             "name": "SA_Obj92Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1492224,
+            "byteOffset": 1492032,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -7826,7 +7826,7 @@
         {
             "name": "SA_Obj92Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 980800,
+            "byteOffset": 980672,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -7846,7 +7846,7 @@
         {
             "name": "SA_Obj92Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 490400,
+            "byteOffset": 490336,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -7876,7 +7876,7 @@
         {
             "name": "SA_Obj91Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1513248,
+            "byteOffset": 1513056,
             "componentType": 5126,
             "count": 580,
             "max": [
@@ -7894,7 +7894,7 @@
         {
             "name": "SA_Obj91Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1520208,
+            "byteOffset": 1520016,
             "componentType": 5126,
             "count": 580,
             "max": [
@@ -7912,7 +7912,7 @@
         {
             "name": "SA_Obj91Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 1008832,
+            "byteOffset": 1008704,
             "componentType": 5126,
             "count": 580,
             "max": [
@@ -7932,7 +7932,7 @@
         {
             "name": "SA_Obj91Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 504416,
+            "byteOffset": 504352,
             "componentType": 5126,
             "count": 580,
             "max": [
@@ -7962,7 +7962,7 @@
         {
             "name": "SA_Obj90Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1527168,
+            "byteOffset": 1526976,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -7980,7 +7980,7 @@
         {
             "name": "SA_Obj90Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1548192,
+            "byteOffset": 1548000,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -7998,7 +7998,7 @@
         {
             "name": "SA_Obj90Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 1018112,
+            "byteOffset": 1017984,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -8018,7 +8018,7 @@
         {
             "name": "SA_Obj90Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 509056,
+            "byteOffset": 508992,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -8048,7 +8048,7 @@
         {
             "name": "SA_Obj8Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1569216,
+            "byteOffset": 1569024,
             "componentType": 5126,
             "count": 197,
             "max": [
@@ -8066,7 +8066,7 @@
         {
             "name": "SA_Obj8Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1571580,
+            "byteOffset": 1571388,
             "componentType": 5126,
             "count": 197,
             "max": [
@@ -8084,7 +8084,7 @@
         {
             "name": "SA_Obj8Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 1046144,
+            "byteOffset": 1046016,
             "componentType": 5126,
             "count": 197,
             "max": [
@@ -8104,7 +8104,7 @@
         {
             "name": "SA_Obj8Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 523072,
+            "byteOffset": 523008,
             "componentType": 5126,
             "count": 197,
             "max": [
@@ -8134,7 +8134,7 @@
         {
             "name": "SA_Obj89Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1573944,
+            "byteOffset": 1573752,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8152,7 +8152,7 @@
         {
             "name": "SA_Obj89Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 1581720,
+            "byteOffset": 1581528,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8170,7 +8170,7 @@
         {
             "name": "SA_Obj89Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 1049296,
+            "byteOffset": 1049168,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8190,7 +8190,7 @@
         {
             "name": "SA_Obj89Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 524648,
+            "byteOffset": 524584,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8220,7 +8220,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 1589496,
+            "byteOffset": 1589304,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8238,7 +8238,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 2513520,
+            "byteOffset": 2513328,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8256,7 +8256,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 1059664,
+            "byteOffset": 1059536,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8276,7 +8276,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 529832,
+            "byteOffset": 529768,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8292,7 +8292,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/TEXCOORD_1",
             "bufferView": 3,
-            "byteOffset": 1145848,
+            "byteOffset": 1145784,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8308,7 +8308,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/TEXCOORD_2",
             "bufferView": 3,
-            "byteOffset": 1761864,
+            "byteOffset": 1761800,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8324,7 +8324,7 @@
         {
             "name": "SA_Obj88Shape#0/vertices/TEXCOORD_3",
             "bufferView": 3,
-            "byteOffset": 2377880,
+            "byteOffset": 2377816,
             "componentType": 5126,
             "count": 77002,
             "max": [
@@ -8354,7 +8354,7 @@
         {
             "name": "SA_Obj85Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3437544,
+            "byteOffset": 3437352,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -8372,7 +8372,7 @@
         {
             "name": "SA_Obj85Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3444456,
+            "byteOffset": 3444264,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -8390,7 +8390,7 @@
         {
             "name": "SA_Obj85Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2291696,
+            "byteOffset": 2291568,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -8410,7 +8410,7 @@
         {
             "name": "SA_Obj85Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 2993896,
+            "byteOffset": 2993832,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -8440,7 +8440,7 @@
         {
             "name": "SA_Obj84Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3451368,
+            "byteOffset": 3451176,
             "componentType": 5126,
             "count": 1178,
             "max": [
@@ -8458,7 +8458,7 @@
         {
             "name": "SA_Obj84Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3465504,
+            "byteOffset": 3465312,
             "componentType": 5126,
             "count": 1178,
             "max": [
@@ -8476,7 +8476,7 @@
         {
             "name": "SA_Obj84Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2300912,
+            "byteOffset": 2300784,
             "componentType": 5126,
             "count": 1178,
             "max": [
@@ -8496,7 +8496,7 @@
         {
             "name": "SA_Obj84Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 2998504,
+            "byteOffset": 2998440,
             "componentType": 5126,
             "count": 1178,
             "max": [
@@ -8526,7 +8526,7 @@
         {
             "name": "SA_Obj82Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3479640,
+            "byteOffset": 3479448,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8544,7 +8544,7 @@
         {
             "name": "SA_Obj82Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3487416,
+            "byteOffset": 3487224,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8562,7 +8562,7 @@
         {
             "name": "SA_Obj82Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2319760,
+            "byteOffset": 2319632,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8582,7 +8582,7 @@
         {
             "name": "SA_Obj82Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3007928,
+            "byteOffset": 3007864,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8612,7 +8612,7 @@
         {
             "name": "SA_Obj7Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3495192,
+            "byteOffset": 3495000,
             "componentType": 5126,
             "count": 1238,
             "max": [
@@ -8630,7 +8630,7 @@
         {
             "name": "SA_Obj7Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3510048,
+            "byteOffset": 3509856,
             "componentType": 5126,
             "count": 1238,
             "max": [
@@ -8648,7 +8648,7 @@
         {
             "name": "SA_Obj7Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2330128,
+            "byteOffset": 2330000,
             "componentType": 5126,
             "count": 1238,
             "max": [
@@ -8668,7 +8668,7 @@
         {
             "name": "SA_Obj7Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3013112,
+            "byteOffset": 3013048,
             "componentType": 5126,
             "count": 1238,
             "max": [
@@ -8698,7 +8698,7 @@
         {
             "name": "SA_Obj79Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3524904,
+            "byteOffset": 3524712,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -8716,7 +8716,7 @@
         {
             "name": "SA_Obj79Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3539808,
+            "byteOffset": 3539616,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -8734,7 +8734,7 @@
         {
             "name": "SA_Obj79Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2349936,
+            "byteOffset": 2349808,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -8754,7 +8754,7 @@
         {
             "name": "SA_Obj79Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3023016,
+            "byteOffset": 3022952,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -8784,7 +8784,7 @@
         {
             "name": "SA_Obj78Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3554712,
+            "byteOffset": 3554520,
             "componentType": 5126,
             "count": 1100,
             "max": [
@@ -8802,7 +8802,7 @@
         {
             "name": "SA_Obj78Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3567912,
+            "byteOffset": 3567720,
             "componentType": 5126,
             "count": 1100,
             "max": [
@@ -8820,7 +8820,7 @@
         {
             "name": "SA_Obj78Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2369808,
+            "byteOffset": 2369680,
             "componentType": 5126,
             "count": 1100,
             "max": [
@@ -8840,7 +8840,7 @@
         {
             "name": "SA_Obj78Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3032952,
+            "byteOffset": 3032888,
             "componentType": 5126,
             "count": 1100,
             "max": [
@@ -8870,7 +8870,7 @@
         {
             "name": "SA_Obj77Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3581112,
+            "byteOffset": 3580920,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8888,7 +8888,7 @@
         {
             "name": "SA_Obj77Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3588888,
+            "byteOffset": 3588696,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8906,7 +8906,7 @@
         {
             "name": "SA_Obj77Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2387408,
+            "byteOffset": 2387280,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8926,7 +8926,7 @@
         {
             "name": "SA_Obj77Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3041752,
+            "byteOffset": 3041688,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -8956,7 +8956,7 @@
         {
             "name": "SA_Obj76Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3596664,
+            "byteOffset": 3596472,
             "componentType": 5126,
             "count": 2880,
             "max": [
@@ -8974,7 +8974,7 @@
         {
             "name": "SA_Obj76Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3631224,
+            "byteOffset": 3631032,
             "componentType": 5126,
             "count": 2880,
             "max": [
@@ -8992,7 +8992,7 @@
         {
             "name": "SA_Obj76Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2397776,
+            "byteOffset": 2397648,
             "componentType": 5126,
             "count": 2880,
             "max": [
@@ -9012,7 +9012,7 @@
         {
             "name": "SA_Obj76Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3046936,
+            "byteOffset": 3046872,
             "componentType": 5126,
             "count": 2880,
             "max": [
@@ -9042,7 +9042,7 @@
         {
             "name": "SA_Obj75Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3665784,
+            "byteOffset": 3665592,
             "componentType": 5126,
             "count": 789,
             "max": [
@@ -9060,7 +9060,7 @@
         {
             "name": "SA_Obj75Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3675252,
+            "byteOffset": 3675060,
             "componentType": 5126,
             "count": 789,
             "max": [
@@ -9078,7 +9078,7 @@
         {
             "name": "SA_Obj75Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2443856,
+            "byteOffset": 2443728,
             "componentType": 5126,
             "count": 789,
             "max": [
@@ -9098,7 +9098,7 @@
         {
             "name": "SA_Obj75Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3069976,
+            "byteOffset": 3069912,
             "componentType": 5126,
             "count": 789,
             "max": [
@@ -9128,7 +9128,7 @@
         {
             "name": "SA_Obj74Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3684720,
+            "byteOffset": 3684528,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -9146,7 +9146,7 @@
         {
             "name": "SA_Obj74Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3691632,
+            "byteOffset": 3691440,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -9164,7 +9164,7 @@
         {
             "name": "SA_Obj74Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2456480,
+            "byteOffset": 2456352,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -9184,7 +9184,7 @@
         {
             "name": "SA_Obj74Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3076288,
+            "byteOffset": 3076224,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -9214,7 +9214,7 @@
         {
             "name": "SA_Obj73Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3698544,
+            "byteOffset": 3698352,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -9232,7 +9232,7 @@
         {
             "name": "SA_Obj73Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3712728,
+            "byteOffset": 3712536,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -9250,7 +9250,7 @@
         {
             "name": "SA_Obj73Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2465696,
+            "byteOffset": 2465568,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -9270,7 +9270,7 @@
         {
             "name": "SA_Obj73Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3080896,
+            "byteOffset": 3080832,
             "componentType": 5126,
             "count": 1182,
             "max": [
@@ -9300,7 +9300,7 @@
         {
             "name": "SA_Obj72Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3726912,
+            "byteOffset": 3726720,
             "componentType": 5126,
             "count": 746,
             "max": [
@@ -9318,7 +9318,7 @@
         {
             "name": "SA_Obj72Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3735864,
+            "byteOffset": 3735672,
             "componentType": 5126,
             "count": 746,
             "max": [
@@ -9336,7 +9336,7 @@
         {
             "name": "SA_Obj72Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2484608,
+            "byteOffset": 2484480,
             "componentType": 5126,
             "count": 746,
             "max": [
@@ -9356,7 +9356,7 @@
         {
             "name": "SA_Obj72Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3090352,
+            "byteOffset": 3090288,
             "componentType": 5126,
             "count": 746,
             "max": [
@@ -9386,7 +9386,7 @@
         {
             "name": "SA_Obj71Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 3744816,
+            "byteOffset": 3744624,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -9404,7 +9404,7 @@
         {
             "name": "SA_Obj71Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 3929232,
+            "byteOffset": 3929040,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -9422,7 +9422,7 @@
         {
             "name": "SA_Obj71Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2496544,
+            "byteOffset": 2496416,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -9442,7 +9442,7 @@
         {
             "name": "SA_Obj71Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3096320,
+            "byteOffset": 3096256,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -9472,7 +9472,7 @@
         {
             "name": "SA_Obj70Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4113648,
+            "byteOffset": 4113456,
             "componentType": 5126,
             "count": 756,
             "max": [
@@ -9490,7 +9490,7 @@
         {
             "name": "SA_Obj70Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4122720,
+            "byteOffset": 4122528,
             "componentType": 5126,
             "count": 756,
             "max": [
@@ -9508,7 +9508,7 @@
         {
             "name": "SA_Obj70Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2742432,
+            "byteOffset": 2742304,
             "componentType": 5126,
             "count": 756,
             "max": [
@@ -9528,7 +9528,7 @@
         {
             "name": "SA_Obj70Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3219264,
+            "byteOffset": 3219200,
             "componentType": 5126,
             "count": 756,
             "max": [
@@ -9558,7 +9558,7 @@
         {
             "name": "SA_Obj6Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4131792,
+            "byteOffset": 4131600,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9576,7 +9576,7 @@
         {
             "name": "SA_Obj6Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4139568,
+            "byteOffset": 4139376,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9594,7 +9594,7 @@
         {
             "name": "SA_Obj6Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2754528,
+            "byteOffset": 2754400,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9614,7 +9614,7 @@
         {
             "name": "SA_Obj6Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3225312,
+            "byteOffset": 3225248,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9644,7 +9644,7 @@
         {
             "name": "SA_Obj69Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4147344,
+            "byteOffset": 4147152,
             "componentType": 5126,
             "count": 760,
             "max": [
@@ -9662,7 +9662,7 @@
         {
             "name": "SA_Obj69Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4156464,
+            "byteOffset": 4156272,
             "componentType": 5126,
             "count": 760,
             "max": [
@@ -9680,7 +9680,7 @@
         {
             "name": "SA_Obj69Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2764896,
+            "byteOffset": 2764768,
             "componentType": 5126,
             "count": 760,
             "max": [
@@ -9700,7 +9700,7 @@
         {
             "name": "SA_Obj69Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3230496,
+            "byteOffset": 3230432,
             "componentType": 5126,
             "count": 760,
             "max": [
@@ -9730,7 +9730,7 @@
         {
             "name": "SA_Obj66Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4165584,
+            "byteOffset": 4165392,
             "componentType": 5126,
             "count": 7334,
             "max": [
@@ -9748,7 +9748,7 @@
         {
             "name": "SA_Obj66Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4253592,
+            "byteOffset": 4253400,
             "componentType": 5126,
             "count": 7334,
             "max": [
@@ -9766,7 +9766,7 @@
         {
             "name": "SA_Obj66Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2777056,
+            "byteOffset": 2776928,
             "componentType": 5126,
             "count": 7334,
             "max": [
@@ -9786,7 +9786,7 @@
         {
             "name": "SA_Obj66Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3236576,
+            "byteOffset": 3236512,
             "componentType": 5126,
             "count": 7334,
             "max": [
@@ -9816,7 +9816,7 @@
         {
             "name": "SA_Obj65Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4341600,
+            "byteOffset": 4341408,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9834,7 +9834,7 @@
         {
             "name": "SA_Obj65Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4349376,
+            "byteOffset": 4349184,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9852,7 +9852,7 @@
         {
             "name": "SA_Obj65Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2894400,
+            "byteOffset": 2894272,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9872,7 +9872,7 @@
         {
             "name": "SA_Obj65Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3295248,
+            "byteOffset": 3295184,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9902,7 +9902,7 @@
         {
             "name": "SA_Obj64Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4357152,
+            "byteOffset": 4356960,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9920,7 +9920,7 @@
         {
             "name": "SA_Obj64Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4364928,
+            "byteOffset": 4364736,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9938,7 +9938,7 @@
         {
             "name": "SA_Obj64Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2904768,
+            "byteOffset": 2904640,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9958,7 +9958,7 @@
         {
             "name": "SA_Obj64Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3300432,
+            "byteOffset": 3300368,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -9988,7 +9988,7 @@
         {
             "name": "SA_Obj63Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4372704,
+            "byteOffset": 4372512,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10006,7 +10006,7 @@
         {
             "name": "SA_Obj63Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4379616,
+            "byteOffset": 4379424,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10024,7 +10024,7 @@
         {
             "name": "SA_Obj63Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2915136,
+            "byteOffset": 2915008,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10044,7 +10044,7 @@
         {
             "name": "SA_Obj63Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3305616,
+            "byteOffset": 3305552,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10074,7 +10074,7 @@
         {
             "name": "SA_Obj62Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4386528,
+            "byteOffset": 4386336,
             "componentType": 5126,
             "count": 22272,
             "max": [
@@ -10092,7 +10092,7 @@
         {
             "name": "SA_Obj62Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4653792,
+            "byteOffset": 4653600,
             "componentType": 5126,
             "count": 22272,
             "max": [
@@ -10110,7 +10110,7 @@
         {
             "name": "SA_Obj62Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 2924352,
+            "byteOffset": 2924224,
             "componentType": 5126,
             "count": 22272,
             "max": [
@@ -10130,7 +10130,7 @@
         {
             "name": "SA_Obj62Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3310224,
+            "byteOffset": 3310160,
             "componentType": 5126,
             "count": 22272,
             "max": [
@@ -10160,7 +10160,7 @@
         {
             "name": "SA_Obj60Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4921056,
+            "byteOffset": 4920864,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -10178,7 +10178,7 @@
         {
             "name": "SA_Obj60Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4928832,
+            "byteOffset": 4928640,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -10196,7 +10196,7 @@
         {
             "name": "SA_Obj60Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3280704,
+            "byteOffset": 3280576,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -10216,7 +10216,7 @@
         {
             "name": "SA_Obj60Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3488400,
+            "byteOffset": 3488336,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -10246,7 +10246,7 @@
         {
             "name": "SA_Obj5Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4936608,
+            "byteOffset": 4936416,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10264,7 +10264,7 @@
         {
             "name": "SA_Obj5Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4943520,
+            "byteOffset": 4943328,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10282,7 +10282,7 @@
         {
             "name": "SA_Obj5Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3291072,
+            "byteOffset": 3290944,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10302,7 +10302,7 @@
         {
             "name": "SA_Obj5Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3493584,
+            "byteOffset": 3493520,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10332,7 +10332,7 @@
         {
             "name": "SA_Obj58Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4950432,
+            "byteOffset": 4950240,
             "componentType": 5126,
             "count": 762,
             "max": [
@@ -10350,7 +10350,7 @@
         {
             "name": "SA_Obj58Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 4959576,
+            "byteOffset": 4959384,
             "componentType": 5126,
             "count": 762,
             "max": [
@@ -10368,7 +10368,7 @@
         {
             "name": "SA_Obj58Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3300288,
+            "byteOffset": 3300160,
             "componentType": 5126,
             "count": 762,
             "max": [
@@ -10388,7 +10388,7 @@
         {
             "name": "SA_Obj58Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3498192,
+            "byteOffset": 3498128,
             "componentType": 5126,
             "count": 762,
             "max": [
@@ -10418,7 +10418,7 @@
         {
             "name": "SA_Obj57Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 4968720,
+            "byteOffset": 4968528,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -10436,7 +10436,7 @@
         {
             "name": "SA_Obj57Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 5153136,
+            "byteOffset": 5152944,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -10454,7 +10454,7 @@
         {
             "name": "SA_Obj57Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3312480,
+            "byteOffset": 3312352,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -10474,7 +10474,7 @@
         {
             "name": "SA_Obj57Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3504288,
+            "byteOffset": 3504224,
             "componentType": 5126,
             "count": 15368,
             "max": [
@@ -10504,7 +10504,7 @@
         {
             "name": "SA_Obj56Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 5337552,
+            "byteOffset": 5337360,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10522,7 +10522,7 @@
         {
             "name": "SA_Obj56Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 5344464,
+            "byteOffset": 5344272,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10540,7 +10540,7 @@
         {
             "name": "SA_Obj56Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3558368,
+            "byteOffset": 3558240,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10560,7 +10560,7 @@
         {
             "name": "SA_Obj56Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3627232,
+            "byteOffset": 3627168,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -10590,7 +10590,7 @@
         {
             "name": "SA_Obj55Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 5351376,
+            "byteOffset": 5351184,
             "componentType": 5126,
             "count": 334,
             "max": [
@@ -10608,7 +10608,7 @@
         {
             "name": "SA_Obj55Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 5355384,
+            "byteOffset": 5355192,
             "componentType": 5126,
             "count": 334,
             "max": [
@@ -10626,7 +10626,7 @@
         {
             "name": "SA_Obj55Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3567584,
+            "byteOffset": 3567456,
             "componentType": 5126,
             "count": 334,
             "max": [
@@ -10646,7 +10646,7 @@
         {
             "name": "SA_Obj55Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3631840,
+            "byteOffset": 3631776,
             "componentType": 5126,
             "count": 334,
             "max": [
@@ -10676,7 +10676,7 @@
         {
             "name": "SA_Obj54Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 5359392,
+            "byteOffset": 5359200,
             "componentType": 5126,
             "count": 10764,
             "max": [
@@ -10694,7 +10694,7 @@
         {
             "name": "SA_Obj54Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 5488560,
+            "byteOffset": 5488368,
             "componentType": 5126,
             "count": 10764,
             "max": [
@@ -10712,7 +10712,7 @@
         {
             "name": "SA_Obj54Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3572928,
+            "byteOffset": 3572800,
             "componentType": 5126,
             "count": 10764,
             "max": [
@@ -10732,7 +10732,7 @@
         {
             "name": "SA_Obj54Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3634512,
+            "byteOffset": 3634448,
             "componentType": 5126,
             "count": 10764,
             "max": [
@@ -10762,7 +10762,7 @@
         {
             "name": "SA_Obj53Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 5617728,
+            "byteOffset": 5617536,
             "componentType": 5126,
             "count": 99648,
             "max": [
@@ -10780,7 +10780,7 @@
         {
             "name": "SA_Obj53Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 6813504,
+            "byteOffset": 6813312,
             "componentType": 5126,
             "count": 99648,
             "max": [
@@ -10798,7 +10798,7 @@
         {
             "name": "SA_Obj53Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 3745152,
+            "byteOffset": 3745024,
             "componentType": 5126,
             "count": 99648,
             "max": [
@@ -10818,7 +10818,7 @@
         {
             "name": "SA_Obj53Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 3720624,
+            "byteOffset": 3720560,
             "componentType": 5126,
             "count": 99648,
             "max": [
@@ -10848,7 +10848,7 @@
         {
             "name": "SA_Obj52Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8009280,
+            "byteOffset": 8009088,
             "componentType": 5126,
             "count": 1179,
             "max": [
@@ -10866,7 +10866,7 @@
         {
             "name": "SA_Obj52Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8023428,
+            "byteOffset": 8023236,
             "componentType": 5126,
             "count": 1179,
             "max": [
@@ -10884,7 +10884,7 @@
         {
             "name": "SA_Obj52Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5339520,
+            "byteOffset": 5339392,
             "componentType": 5126,
             "count": 1179,
             "max": [
@@ -10904,7 +10904,7 @@
         {
             "name": "SA_Obj52Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4517808,
+            "byteOffset": 4517744,
             "componentType": 5126,
             "count": 1179,
             "max": [
@@ -10934,7 +10934,7 @@
         {
             "name": "SA_Obj49Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8037576,
+            "byteOffset": 8037384,
             "componentType": 5126,
             "count": 112,
             "max": [
@@ -10952,7 +10952,7 @@
         {
             "name": "SA_Obj49Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8038920,
+            "byteOffset": 8038728,
             "componentType": 5126,
             "count": 112,
             "max": [
@@ -10970,7 +10970,7 @@
         {
             "name": "SA_Obj49Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5358384,
+            "byteOffset": 5358256,
             "componentType": 5126,
             "count": 112,
             "max": [
@@ -10990,7 +10990,7 @@
         {
             "name": "SA_Obj49Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4527240,
+            "byteOffset": 4527176,
             "componentType": 5126,
             "count": 112,
             "max": [
@@ -11020,7 +11020,7 @@
         {
             "name": "SA_Obj49Shape#1/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8040264,
+            "byteOffset": 8040072,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -11038,7 +11038,7 @@
         {
             "name": "SA_Obj49Shape#1/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8040312,
+            "byteOffset": 8040120,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -11056,7 +11056,7 @@
         {
             "name": "SA_Obj49Shape#1/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5360176,
+            "byteOffset": 5360048,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -11076,7 +11076,7 @@
         {
             "name": "SA_Obj49Shape#1/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4528136,
+            "byteOffset": 4528072,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -11106,7 +11106,7 @@
         {
             "name": "SA_ObjShape48#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8040360,
+            "byteOffset": 8040168,
             "componentType": 5126,
             "count": 144,
             "max": [
@@ -11124,7 +11124,7 @@
         {
             "name": "SA_ObjShape48#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8042088,
+            "byteOffset": 8041896,
             "componentType": 5126,
             "count": 144,
             "max": [
@@ -11142,7 +11142,7 @@
         {
             "name": "SA_ObjShape48#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5360240,
+            "byteOffset": 5360112,
             "componentType": 5126,
             "count": 144,
             "max": [
@@ -11162,7 +11162,7 @@
         {
             "name": "SA_ObjShape48#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4528168,
+            "byteOffset": 4528104,
             "componentType": 5126,
             "count": 144,
             "max": [
@@ -11192,7 +11192,7 @@
         {
             "name": "SA_Obj44Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8043816,
+            "byteOffset": 8043624,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -11210,7 +11210,7 @@
         {
             "name": "SA_Obj44Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8050728,
+            "byteOffset": 8050536,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -11228,7 +11228,7 @@
         {
             "name": "SA_Obj44Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5362544,
+            "byteOffset": 5362416,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -11248,7 +11248,7 @@
         {
             "name": "SA_Obj44Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4529320,
+            "byteOffset": 4529256,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -11278,7 +11278,7 @@
         {
             "name": "SA_Obj43Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8057640,
+            "byteOffset": 8057448,
             "componentType": 5126,
             "count": 2549,
             "max": [
@@ -11296,7 +11296,7 @@
         {
             "name": "SA_Obj43Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8088228,
+            "byteOffset": 8088036,
             "componentType": 5126,
             "count": 2549,
             "max": [
@@ -11314,7 +11314,7 @@
         {
             "name": "SA_Obj43Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5371760,
+            "byteOffset": 5371632,
             "componentType": 5126,
             "count": 2549,
             "max": [
@@ -11334,7 +11334,7 @@
         {
             "name": "SA_Obj43Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4533928,
+            "byteOffset": 4533864,
             "componentType": 5126,
             "count": 2549,
             "max": [
@@ -11364,7 +11364,7 @@
         {
             "name": "SA_Obj42Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8118816,
+            "byteOffset": 8118624,
             "componentType": 5126,
             "count": 1591,
             "max": [
@@ -11382,7 +11382,7 @@
         {
             "name": "SA_Obj42Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 8137908,
+            "byteOffset": 8137716,
             "componentType": 5126,
             "count": 1591,
             "max": [
@@ -11400,7 +11400,7 @@
         {
             "name": "SA_Obj42Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5412544,
+            "byteOffset": 5412416,
             "componentType": 5126,
             "count": 1591,
             "max": [
@@ -11420,7 +11420,7 @@
         {
             "name": "SA_Obj42Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4554320,
+            "byteOffset": 4554256,
             "componentType": 5126,
             "count": 1591,
             "max": [
@@ -11450,7 +11450,7 @@
         {
             "name": "SA_Obj3Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 8157000,
+            "byteOffset": 8156808,
             "componentType": 5126,
             "count": 84643,
             "max": [
@@ -11468,7 +11468,7 @@
         {
             "name": "SA_Obj3Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 9172716,
+            "byteOffset": 9172524,
             "componentType": 5126,
             "count": 84643,
             "max": [
@@ -11486,7 +11486,7 @@
         {
             "name": "SA_Obj3Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 5438000,
+            "byteOffset": 5437872,
             "componentType": 5126,
             "count": 84643,
             "max": [
@@ -11506,7 +11506,7 @@
         {
             "name": "SA_Obj3Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 4567048,
+            "byteOffset": 4566984,
             "componentType": 5126,
             "count": 84643,
             "max": [
@@ -11536,7 +11536,7 @@
         {
             "name": "SA_Obj39Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10188432,
+            "byteOffset": 10188240,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -11554,7 +11554,7 @@
         {
             "name": "SA_Obj39Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10203336,
+            "byteOffset": 10203144,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -11572,7 +11572,7 @@
         {
             "name": "SA_Obj39Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6792288,
+            "byteOffset": 6792160,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -11592,7 +11592,7 @@
         {
             "name": "SA_Obj39Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5244192,
+            "byteOffset": 5244128,
             "componentType": 5126,
             "count": 1242,
             "max": [
@@ -11622,7 +11622,7 @@
         {
             "name": "SA_Obj36Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10218240,
+            "byteOffset": 10218048,
             "componentType": 5126,
             "count": 1165,
             "max": [
@@ -11640,7 +11640,7 @@
         {
             "name": "SA_Obj36Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10232220,
+            "byteOffset": 10232028,
             "componentType": 5126,
             "count": 1165,
             "max": [
@@ -11658,7 +11658,7 @@
         {
             "name": "SA_Obj36Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6812160,
+            "byteOffset": 6812032,
             "componentType": 5126,
             "count": 1165,
             "max": [
@@ -11678,7 +11678,7 @@
         {
             "name": "SA_Obj36Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5254128,
+            "byteOffset": 5254064,
             "componentType": 5126,
             "count": 1165,
             "max": [
@@ -11694,7 +11694,7 @@
         {
             "name": "SA_Obj36Shape#0/vertices/TEXCOORD_1",
             "bufferView": 3,
-            "byteOffset": 5263448,
+            "byteOffset": 5263384,
             "componentType": 5126,
             "count": 1165,
             "max": [
@@ -11710,7 +11710,7 @@
         {
             "name": "SA_Obj36Shape#0/vertices/TEXCOORD_2",
             "bufferView": 3,
-            "byteOffset": 5272768,
+            "byteOffset": 5272704,
             "componentType": 5126,
             "count": 1165,
             "max": [
@@ -11740,7 +11740,7 @@
         {
             "name": "SA_ObjShape35#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10246200,
+            "byteOffset": 10246008,
             "componentType": 5126,
             "count": 512,
             "max": [
@@ -11758,7 +11758,7 @@
         {
             "name": "SA_ObjShape35#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10252344,
+            "byteOffset": 10252152,
             "componentType": 5126,
             "count": 512,
             "max": [
@@ -11776,7 +11776,7 @@
         {
             "name": "SA_ObjShape35#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6830800,
+            "byteOffset": 6830672,
             "componentType": 5126,
             "count": 512,
             "max": [
@@ -11796,7 +11796,7 @@
         {
             "name": "SA_ObjShape35#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5282088,
+            "byteOffset": 5282024,
             "componentType": 5126,
             "count": 512,
             "max": [
@@ -11826,7 +11826,7 @@
         {
             "name": "SA_Obj34Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10258488,
+            "byteOffset": 10258296,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -11844,7 +11844,7 @@
         {
             "name": "SA_Obj34Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10289088,
+            "byteOffset": 10288896,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -11862,7 +11862,7 @@
         {
             "name": "SA_Obj34Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6838992,
+            "byteOffset": 6838864,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -11882,7 +11882,7 @@
         {
             "name": "SA_Obj34Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5286184,
+            "byteOffset": 5286120,
             "componentType": 5126,
             "count": 2550,
             "max": [
@@ -11912,7 +11912,7 @@
         {
             "name": "SA_Obj31Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10319688,
+            "byteOffset": 10319496,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -11930,7 +11930,7 @@
         {
             "name": "SA_Obj31Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10327464,
+            "byteOffset": 10327272,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -11948,7 +11948,7 @@
         {
             "name": "SA_Obj31Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6879792,
+            "byteOffset": 6879664,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -11968,7 +11968,7 @@
         {
             "name": "SA_Obj31Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5306584,
+            "byteOffset": 5306520,
             "componentType": 5126,
             "count": 648,
             "max": [
@@ -11998,7 +11998,7 @@
         {
             "name": "SA_Obj30Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10335240,
+            "byteOffset": 10335048,
             "componentType": 5126,
             "count": 3943,
             "max": [
@@ -12016,7 +12016,7 @@
         {
             "name": "SA_Obj30Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10382556,
+            "byteOffset": 10382364,
             "componentType": 5126,
             "count": 3943,
             "max": [
@@ -12034,7 +12034,7 @@
         {
             "name": "SA_Obj30Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6890160,
+            "byteOffset": 6890032,
             "componentType": 5126,
             "count": 3943,
             "max": [
@@ -12054,7 +12054,7 @@
         {
             "name": "SA_Obj30Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5311768,
+            "byteOffset": 5311704,
             "componentType": 5126,
             "count": 3943,
             "max": [
@@ -12084,7 +12084,7 @@
         {
             "name": "SA_Obj2Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10429872,
+            "byteOffset": 10429680,
             "componentType": 5126,
             "count": 1237,
             "max": [
@@ -12102,7 +12102,7 @@
         {
             "name": "SA_Obj2Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10444716,
+            "byteOffset": 10444524,
             "componentType": 5126,
             "count": 1237,
             "max": [
@@ -12120,7 +12120,7 @@
         {
             "name": "SA_Obj2Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6953248,
+            "byteOffset": 6953120,
             "componentType": 5126,
             "count": 1237,
             "max": [
@@ -12140,7 +12140,7 @@
         {
             "name": "SA_Obj2Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5343312,
+            "byteOffset": 5343248,
             "componentType": 5126,
             "count": 1237,
             "max": [
@@ -12170,7 +12170,7 @@
         {
             "name": "SA_Obj29Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10459560,
+            "byteOffset": 10459368,
             "componentType": 5126,
             "count": 2724,
             "max": [
@@ -12188,7 +12188,7 @@
         {
             "name": "SA_Obj29Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10492248,
+            "byteOffset": 10492056,
             "componentType": 5126,
             "count": 2724,
             "max": [
@@ -12206,7 +12206,7 @@
         {
             "name": "SA_Obj29Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 6973040,
+            "byteOffset": 6972912,
             "componentType": 5126,
             "count": 2724,
             "max": [
@@ -12226,7 +12226,7 @@
         {
             "name": "SA_Obj29Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5353208,
+            "byteOffset": 5353144,
             "componentType": 5126,
             "count": 2724,
             "max": [
@@ -12256,7 +12256,7 @@
         {
             "name": "SA_Obj28Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10524936,
+            "byteOffset": 10524744,
             "componentType": 5126,
             "count": 828,
             "max": [
@@ -12274,7 +12274,7 @@
         {
             "name": "SA_Obj28Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10534872,
+            "byteOffset": 10534680,
             "componentType": 5126,
             "count": 828,
             "max": [
@@ -12292,7 +12292,7 @@
         {
             "name": "SA_Obj28Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7016624,
+            "byteOffset": 7016496,
             "componentType": 5126,
             "count": 828,
             "max": [
@@ -12312,7 +12312,7 @@
         {
             "name": "SA_Obj28Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5375000,
+            "byteOffset": 5374936,
             "componentType": 5126,
             "count": 828,
             "max": [
@@ -12342,7 +12342,7 @@
         {
             "name": "SA_Obj28Shape#1/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10544808,
+            "byteOffset": 10544616,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12360,7 +12360,7 @@
         {
             "name": "SA_Obj28Shape#1/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10544952,
+            "byteOffset": 10544760,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12378,7 +12378,7 @@
         {
             "name": "SA_Obj28Shape#1/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7029872,
+            "byteOffset": 7029744,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12398,7 +12398,7 @@
         {
             "name": "SA_Obj28Shape#1/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5381624,
+            "byteOffset": 5381560,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12428,7 +12428,7 @@
         {
             "name": "SA_Obj25Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10545096,
+            "byteOffset": 10544904,
             "componentType": 5126,
             "count": 336,
             "max": [
@@ -12446,7 +12446,7 @@
         {
             "name": "SA_Obj25Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10549128,
+            "byteOffset": 10548936,
             "componentType": 5126,
             "count": 336,
             "max": [
@@ -12464,7 +12464,7 @@
         {
             "name": "SA_Obj25Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7030064,
+            "byteOffset": 7029936,
             "componentType": 5126,
             "count": 336,
             "max": [
@@ -12484,7 +12484,7 @@
         {
             "name": "SA_Obj25Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5381720,
+            "byteOffset": 5381656,
             "componentType": 5126,
             "count": 336,
             "max": [
@@ -12514,7 +12514,7 @@
         {
             "name": "SA_Obj24Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10553160,
+            "byteOffset": 10552968,
             "componentType": 5126,
             "count": 316,
             "max": [
@@ -12532,7 +12532,7 @@
         {
             "name": "SA_Obj24Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10556952,
+            "byteOffset": 10556760,
             "componentType": 5126,
             "count": 316,
             "max": [
@@ -12550,7 +12550,7 @@
         {
             "name": "SA_Obj24Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7035440,
+            "byteOffset": 7035312,
             "componentType": 5126,
             "count": 316,
             "max": [
@@ -12570,7 +12570,7 @@
         {
             "name": "SA_Obj24Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5384408,
+            "byteOffset": 5384344,
             "componentType": 5126,
             "count": 316,
             "max": [
@@ -12600,7 +12600,7 @@
         {
             "name": "SA_Obj23Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10560744,
+            "byteOffset": 10560552,
             "componentType": 5126,
             "count": 7380,
             "max": [
@@ -12618,7 +12618,7 @@
         {
             "name": "SA_Obj23Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10649304,
+            "byteOffset": 10649112,
             "componentType": 5126,
             "count": 7380,
             "max": [
@@ -12636,7 +12636,7 @@
         {
             "name": "SA_Obj23Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7040496,
+            "byteOffset": 7040368,
             "componentType": 5126,
             "count": 7380,
             "max": [
@@ -12656,7 +12656,7 @@
         {
             "name": "SA_Obj23Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5386936,
+            "byteOffset": 5386872,
             "componentType": 5126,
             "count": 7380,
             "max": [
@@ -12686,7 +12686,7 @@
         {
             "name": "SA_Obj21Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10737864,
+            "byteOffset": 10737672,
             "componentType": 5126,
             "count": 2133,
             "max": [
@@ -12704,7 +12704,7 @@
         {
             "name": "SA_Obj21Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10763460,
+            "byteOffset": 10763268,
             "componentType": 5126,
             "count": 2133,
             "max": [
@@ -12722,7 +12722,7 @@
         {
             "name": "SA_Obj21Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7158576,
+            "byteOffset": 7158448,
             "componentType": 5126,
             "count": 2133,
             "max": [
@@ -12742,7 +12742,7 @@
         {
             "name": "SA_Obj21Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5445976,
+            "byteOffset": 5445912,
             "componentType": 5126,
             "count": 2133,
             "max": [
@@ -12772,7 +12772,7 @@
         {
             "name": "SA_Obj20Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10789056,
+            "byteOffset": 10788864,
             "componentType": 5126,
             "count": 282,
             "max": [
@@ -12790,7 +12790,7 @@
         {
             "name": "SA_Obj20Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10792440,
+            "byteOffset": 10792248,
             "componentType": 5126,
             "count": 282,
             "max": [
@@ -12808,7 +12808,7 @@
         {
             "name": "SA_Obj20Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7192704,
+            "byteOffset": 7192576,
             "componentType": 5126,
             "count": 282,
             "max": [
@@ -12828,7 +12828,7 @@
         {
             "name": "SA_Obj20Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5463040,
+            "byteOffset": 5462976,
             "componentType": 5126,
             "count": 282,
             "max": [
@@ -12858,7 +12858,7 @@
         {
             "name": "SA_Obj19Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10795824,
+            "byteOffset": 10795632,
             "componentType": 5126,
             "count": 630,
             "max": [
@@ -12876,7 +12876,7 @@
         {
             "name": "SA_Obj19Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10803384,
+            "byteOffset": 10803192,
             "componentType": 5126,
             "count": 630,
             "max": [
@@ -12894,7 +12894,7 @@
         {
             "name": "SA_Obj19Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7197216,
+            "byteOffset": 7197088,
             "componentType": 5126,
             "count": 630,
             "max": [
@@ -12914,7 +12914,7 @@
         {
             "name": "SA_Obj19Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5465296,
+            "byteOffset": 5465232,
             "componentType": 5126,
             "count": 630,
             "max": [
@@ -12944,7 +12944,7 @@
         {
             "name": "SA_Obj18Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10810944,
+            "byteOffset": 10810752,
             "componentType": 5126,
             "count": 6400,
             "max": [
@@ -12962,7 +12962,7 @@
         {
             "name": "SA_Obj18Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10887744,
+            "byteOffset": 10887552,
             "componentType": 5126,
             "count": 6400,
             "max": [
@@ -12980,7 +12980,7 @@
         {
             "name": "SA_Obj18Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7207296,
+            "byteOffset": 7207168,
             "componentType": 5126,
             "count": 6400,
             "max": [
@@ -13000,7 +13000,7 @@
         {
             "name": "SA_Obj18Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5470336,
+            "byteOffset": 5470272,
             "componentType": 5126,
             "count": 6400,
             "max": [
@@ -13030,7 +13030,7 @@
         {
             "name": "SA_Obj17Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 10964544,
+            "byteOffset": 10964352,
             "componentType": 5126,
             "count": 1820,
             "max": [
@@ -13048,7 +13048,7 @@
         {
             "name": "SA_Obj17Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 10986384,
+            "byteOffset": 10986192,
             "componentType": 5126,
             "count": 1820,
             "max": [
@@ -13066,7 +13066,7 @@
         {
             "name": "SA_Obj17Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7309696,
+            "byteOffset": 7309568,
             "componentType": 5126,
             "count": 1820,
             "max": [
@@ -13086,7 +13086,7 @@
         {
             "name": "SA_Obj17Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5521536,
+            "byteOffset": 5521472,
             "componentType": 5126,
             "count": 1820,
             "max": [
@@ -13116,7 +13116,7 @@
         {
             "name": "SA_ObjShape137#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11008224,
+            "byteOffset": 11008032,
             "componentType": 5126,
             "count": 2754,
             "max": [
@@ -13134,7 +13134,7 @@
         {
             "name": "SA_ObjShape137#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11041272,
+            "byteOffset": 11041080,
             "componentType": 5126,
             "count": 2754,
             "max": [
@@ -13152,7 +13152,7 @@
         {
             "name": "SA_ObjShape137#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7338816,
+            "byteOffset": 7338688,
             "componentType": 5126,
             "count": 2754,
             "max": [
@@ -13172,7 +13172,7 @@
         {
             "name": "SA_ObjShape137#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5536096,
+            "byteOffset": 5536032,
             "componentType": 5126,
             "count": 2754,
             "max": [
@@ -13202,7 +13202,7 @@
         {
             "name": "SA_ObjShape136#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11074320,
+            "byteOffset": 11074128,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13220,7 +13220,7 @@
         {
             "name": "SA_ObjShape136#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11094624,
+            "byteOffset": 11094432,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13238,7 +13238,7 @@
         {
             "name": "SA_ObjShape136#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7382880,
+            "byteOffset": 7382752,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13258,7 +13258,7 @@
         {
             "name": "SA_ObjShape136#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5558128,
+            "byteOffset": 5558064,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13288,7 +13288,7 @@
         {
             "name": "SA_Obj135Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11114928,
+            "byteOffset": 11114736,
             "componentType": 5126,
             "count": 1128,
             "max": [
@@ -13306,7 +13306,7 @@
         {
             "name": "SA_Obj135Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11128464,
+            "byteOffset": 11128272,
             "componentType": 5126,
             "count": 1128,
             "max": [
@@ -13324,7 +13324,7 @@
         {
             "name": "SA_Obj135Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7409952,
+            "byteOffset": 7409824,
             "componentType": 5126,
             "count": 1128,
             "max": [
@@ -13344,7 +13344,7 @@
         {
             "name": "SA_Obj135Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5571664,
+            "byteOffset": 5571600,
             "componentType": 5126,
             "count": 1128,
             "max": [
@@ -13374,7 +13374,7 @@
         {
             "name": "SA_ObjShape134#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11142000,
+            "byteOffset": 11141808,
             "componentType": 5126,
             "count": 200,
             "max": [
@@ -13392,7 +13392,7 @@
         {
             "name": "SA_ObjShape134#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11144400,
+            "byteOffset": 11144208,
             "componentType": 5126,
             "count": 200,
             "max": [
@@ -13410,7 +13410,7 @@
         {
             "name": "SA_ObjShape134#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7428000,
+            "byteOffset": 7427872,
             "componentType": 5126,
             "count": 200,
             "max": [
@@ -13430,7 +13430,7 @@
         {
             "name": "SA_ObjShape134#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5580688,
+            "byteOffset": 5580624,
             "componentType": 5126,
             "count": 200,
             "max": [
@@ -13460,7 +13460,7 @@
         {
             "name": "SA_Obj133Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11146800,
+            "byteOffset": 11146608,
             "componentType": 5126,
             "count": 12878,
             "max": [
@@ -13478,7 +13478,7 @@
         {
             "name": "SA_Obj133Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11301336,
+            "byteOffset": 11301144,
             "componentType": 5126,
             "count": 12878,
             "max": [
@@ -13496,7 +13496,7 @@
         {
             "name": "SA_Obj133Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7431200,
+            "byteOffset": 7431072,
             "componentType": 5126,
             "count": 12878,
             "max": [
@@ -13516,7 +13516,7 @@
         {
             "name": "SA_Obj133Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5582288,
+            "byteOffset": 5582224,
             "componentType": 5126,
             "count": 12878,
             "max": [
@@ -13546,7 +13546,7 @@
         {
             "name": "SA_Obj130Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11455872,
+            "byteOffset": 11455680,
             "componentType": 5126,
             "count": 1160,
             "max": [
@@ -13564,7 +13564,7 @@
         {
             "name": "SA_Obj130Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11469792,
+            "byteOffset": 11469600,
             "componentType": 5126,
             "count": 1160,
             "max": [
@@ -13582,7 +13582,7 @@
         {
             "name": "SA_Obj130Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7637248,
+            "byteOffset": 7637120,
             "componentType": 5126,
             "count": 1160,
             "max": [
@@ -13602,7 +13602,7 @@
         {
             "name": "SA_Obj130Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5685312,
+            "byteOffset": 5685248,
             "componentType": 5126,
             "count": 1160,
             "max": [
@@ -13632,7 +13632,7 @@
         {
             "name": "SA_Obj128Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11483712,
+            "byteOffset": 11483520,
             "componentType": 5126,
             "count": 416,
             "max": [
@@ -13650,7 +13650,7 @@
         {
             "name": "SA_Obj128Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11488704,
+            "byteOffset": 11488512,
             "componentType": 5126,
             "count": 416,
             "max": [
@@ -13668,7 +13668,7 @@
         {
             "name": "SA_Obj128Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7655808,
+            "byteOffset": 7655680,
             "componentType": 5126,
             "count": 416,
             "max": [
@@ -13688,7 +13688,7 @@
         {
             "name": "SA_Obj128Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5694592,
+            "byteOffset": 5694528,
             "componentType": 5126,
             "count": 416,
             "max": [
@@ -13718,7 +13718,7 @@
         {
             "name": "SA_ObjShape127#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11493696,
+            "byteOffset": 11493504,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13736,7 +13736,7 @@
         {
             "name": "SA_ObjShape127#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11514000,
+            "byteOffset": 11513808,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13754,7 +13754,7 @@
         {
             "name": "SA_ObjShape127#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7662464,
+            "byteOffset": 7662336,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13774,7 +13774,7 @@
         {
             "name": "SA_ObjShape127#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5697920,
+            "byteOffset": 5697856,
             "componentType": 5126,
             "count": 1692,
             "max": [
@@ -13804,7 +13804,7 @@
         {
             "name": "SA_ObjShape126#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11534304,
+            "byteOffset": 11534112,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13822,7 +13822,7 @@
         {
             "name": "SA_ObjShape126#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11534592,
+            "byteOffset": 11534400,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13840,7 +13840,7 @@
         {
             "name": "SA_ObjShape126#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7689536,
+            "byteOffset": 7689408,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13860,7 +13860,7 @@
         {
             "name": "SA_ObjShape126#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5711456,
+            "byteOffset": 5711392,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13890,7 +13890,7 @@
         {
             "name": "SA_Obj125Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11534880,
+            "byteOffset": 11534688,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13908,7 +13908,7 @@
         {
             "name": "SA_Obj125Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11535168,
+            "byteOffset": 11534976,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13926,7 +13926,7 @@
         {
             "name": "SA_Obj125Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7689920,
+            "byteOffset": 7689792,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13946,7 +13946,7 @@
         {
             "name": "SA_Obj125Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5711648,
+            "byteOffset": 5711584,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -13976,7 +13976,7 @@
         {
             "name": "SA_Obj124Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11535456,
+            "byteOffset": 11535264,
             "componentType": 5126,
             "count": 6249,
             "max": [
@@ -13994,7 +13994,7 @@
         {
             "name": "SA_Obj124Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11610444,
+            "byteOffset": 11610252,
             "componentType": 5126,
             "count": 6249,
             "max": [
@@ -14012,7 +14012,7 @@
         {
             "name": "SA_Obj124Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7690304,
+            "byteOffset": 7690176,
             "componentType": 5126,
             "count": 6249,
             "max": [
@@ -14032,7 +14032,7 @@
         {
             "name": "SA_Obj124Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5711840,
+            "byteOffset": 5711776,
             "componentType": 5126,
             "count": 6249,
             "max": [
@@ -14062,7 +14062,7 @@
         {
             "name": "SA_Obj122Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11685432,
+            "byteOffset": 11685240,
             "componentType": 5126,
             "count": 1873,
             "max": [
@@ -14080,7 +14080,7 @@
         {
             "name": "SA_Obj122Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11707908,
+            "byteOffset": 11707716,
             "componentType": 5126,
             "count": 1873,
             "max": [
@@ -14098,7 +14098,7 @@
         {
             "name": "SA_Obj122Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7790288,
+            "byteOffset": 7790160,
             "componentType": 5126,
             "count": 1873,
             "max": [
@@ -14118,7 +14118,7 @@
         {
             "name": "SA_Obj122Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5761832,
+            "byteOffset": 5761768,
             "componentType": 5126,
             "count": 1873,
             "max": [
@@ -14148,7 +14148,7 @@
         {
             "name": "SA_Obj121Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11730384,
+            "byteOffset": 11730192,
             "componentType": 5126,
             "count": 776,
             "max": [
@@ -14166,7 +14166,7 @@
         {
             "name": "SA_Obj121Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11739696,
+            "byteOffset": 11739504,
             "componentType": 5126,
             "count": 776,
             "max": [
@@ -14184,7 +14184,7 @@
         {
             "name": "SA_Obj121Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7820256,
+            "byteOffset": 7820128,
             "componentType": 5126,
             "count": 776,
             "max": [
@@ -14204,7 +14204,7 @@
         {
             "name": "SA_Obj121Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5776816,
+            "byteOffset": 5776752,
             "componentType": 5126,
             "count": 776,
             "max": [
@@ -14234,7 +14234,7 @@
         {
             "name": "SA_Obj120Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11749008,
+            "byteOffset": 11748816,
             "componentType": 5126,
             "count": 1751,
             "max": [
@@ -14252,7 +14252,7 @@
         {
             "name": "SA_Obj120Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11770020,
+            "byteOffset": 11769828,
             "componentType": 5126,
             "count": 1751,
             "max": [
@@ -14270,7 +14270,7 @@
         {
             "name": "SA_Obj120Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7832672,
+            "byteOffset": 7832544,
             "componentType": 5126,
             "count": 1751,
             "max": [
@@ -14290,7 +14290,7 @@
         {
             "name": "SA_Obj120Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5783024,
+            "byteOffset": 5782960,
             "componentType": 5126,
             "count": 1751,
             "max": [
@@ -14320,7 +14320,7 @@
         {
             "name": "SA_Obj11Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11791032,
+            "byteOffset": 11790840,
             "componentType": 5126,
             "count": 196,
             "max": [
@@ -14338,7 +14338,7 @@
         {
             "name": "SA_Obj11Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11793384,
+            "byteOffset": 11793192,
             "componentType": 5126,
             "count": 196,
             "max": [
@@ -14356,7 +14356,7 @@
         {
             "name": "SA_Obj11Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7860688,
+            "byteOffset": 7860560,
             "componentType": 5126,
             "count": 196,
             "max": [
@@ -14376,7 +14376,7 @@
         {
             "name": "SA_Obj11Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5797032,
+            "byteOffset": 5796968,
             "componentType": 5126,
             "count": 196,
             "max": [
@@ -14406,7 +14406,7 @@
         {
             "name": "SA_Obj119Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11795736,
+            "byteOffset": 11795544,
             "componentType": 5126,
             "count": 206,
             "max": [
@@ -14424,7 +14424,7 @@
         {
             "name": "SA_Obj119Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11798208,
+            "byteOffset": 11798016,
             "componentType": 5126,
             "count": 206,
             "max": [
@@ -14442,7 +14442,7 @@
         {
             "name": "SA_Obj119Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7863824,
+            "byteOffset": 7863696,
             "componentType": 5126,
             "count": 206,
             "max": [
@@ -14462,7 +14462,7 @@
         {
             "name": "SA_Obj119Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5798600,
+            "byteOffset": 5798536,
             "componentType": 5126,
             "count": 206,
             "max": [
@@ -14492,7 +14492,7 @@
         {
             "name": "SA_Obj116Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11800680,
+            "byteOffset": 11800488,
             "componentType": 5126,
             "count": 1318,
             "max": [
@@ -14510,7 +14510,7 @@
         {
             "name": "SA_Obj116Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11816496,
+            "byteOffset": 11816304,
             "componentType": 5126,
             "count": 1318,
             "max": [
@@ -14528,7 +14528,7 @@
         {
             "name": "SA_Obj116Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7867120,
+            "byteOffset": 7866992,
             "componentType": 5126,
             "count": 1318,
             "max": [
@@ -14548,7 +14548,7 @@
         {
             "name": "SA_Obj116Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5800248,
+            "byteOffset": 5800184,
             "componentType": 5126,
             "count": 1318,
             "max": [
@@ -14578,7 +14578,7 @@
         {
             "name": "SA_Obj114Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11832312,
+            "byteOffset": 11832120,
             "componentType": 5126,
             "count": 1711,
             "max": [
@@ -14596,7 +14596,7 @@
         {
             "name": "SA_Obj114Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11852844,
+            "byteOffset": 11852652,
             "componentType": 5126,
             "count": 1711,
             "max": [
@@ -14614,7 +14614,7 @@
         {
             "name": "SA_Obj114Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7888208,
+            "byteOffset": 7888080,
             "componentType": 5126,
             "count": 1711,
             "max": [
@@ -14634,7 +14634,7 @@
         {
             "name": "SA_Obj114Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5810792,
+            "byteOffset": 5810728,
             "componentType": 5126,
             "count": 1711,
             "max": [
@@ -14650,7 +14650,7 @@
         {
             "name": "SA_Obj114Shape#0/vertices/TEXCOORD_1",
             "bufferView": 3,
-            "byteOffset": 5824480,
+            "byteOffset": 5824416,
             "componentType": 5126,
             "count": 1711,
             "max": [
@@ -14666,7 +14666,7 @@
         {
             "name": "SA_Obj114Shape#0/vertices/TEXCOORD_2",
             "bufferView": 3,
-            "byteOffset": 5838168,
+            "byteOffset": 5838104,
             "componentType": 5126,
             "count": 1711,
             "max": [
@@ -14696,7 +14696,7 @@
         {
             "name": "SA_Obj112Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11873376,
+            "byteOffset": 11873184,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -14714,7 +14714,7 @@
         {
             "name": "SA_Obj112Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11894400,
+            "byteOffset": 11894208,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -14732,7 +14732,7 @@
         {
             "name": "SA_Obj112Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7915584,
+            "byteOffset": 7915456,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -14752,7 +14752,7 @@
         {
             "name": "SA_Obj112Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5851856,
+            "byteOffset": 5851792,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -14782,7 +14782,7 @@
         {
             "name": "SA_Obj110Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11915424,
+            "byteOffset": 11915232,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -14800,7 +14800,7 @@
         {
             "name": "SA_Obj110Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11922336,
+            "byteOffset": 11922144,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -14818,7 +14818,7 @@
         {
             "name": "SA_Obj110Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7943616,
+            "byteOffset": 7943488,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -14838,7 +14838,7 @@
         {
             "name": "SA_Obj110Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5865872,
+            "byteOffset": 5865808,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -14868,7 +14868,7 @@
         {
             "name": "SA_Obj10Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11929248,
+            "byteOffset": 11929056,
             "componentType": 5126,
             "count": 199,
             "max": [
@@ -14886,7 +14886,7 @@
         {
             "name": "SA_Obj10Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11931636,
+            "byteOffset": 11931444,
             "componentType": 5126,
             "count": 199,
             "max": [
@@ -14904,7 +14904,7 @@
         {
             "name": "SA_Obj10Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7952832,
+            "byteOffset": 7952704,
             "componentType": 5126,
             "count": 199,
             "max": [
@@ -14924,7 +14924,7 @@
         {
             "name": "SA_Obj10Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5870480,
+            "byteOffset": 5870416,
             "componentType": 5126,
             "count": 199,
             "max": [
@@ -14954,7 +14954,7 @@
         {
             "name": "SA_Obj109Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11934024,
+            "byteOffset": 11933832,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -14972,7 +14972,7 @@
         {
             "name": "SA_Obj109Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 11955048,
+            "byteOffset": 11954856,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -14990,7 +14990,7 @@
         {
             "name": "SA_Obj109Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7956016,
+            "byteOffset": 7955888,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -15010,7 +15010,7 @@
         {
             "name": "SA_Obj109Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5872072,
+            "byteOffset": 5872008,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -15040,7 +15040,7 @@
         {
             "name": "SA_Obj108Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 11976072,
+            "byteOffset": 11975880,
             "componentType": 5126,
             "count": 16213,
             "max": [
@@ -15058,7 +15058,7 @@
         {
             "name": "SA_Obj108Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 12170628,
+            "byteOffset": 12170436,
             "componentType": 5126,
             "count": 16213,
             "max": [
@@ -15076,7 +15076,7 @@
         {
             "name": "SA_Obj108Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 7984048,
+            "byteOffset": 7983920,
             "componentType": 5126,
             "count": 16213,
             "max": [
@@ -15096,7 +15096,7 @@
         {
             "name": "SA_Obj108Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 5886088,
+            "byteOffset": 5886024,
             "componentType": 5126,
             "count": 16213,
             "max": [
@@ -15126,7 +15126,7 @@
         {
             "name": "SA_Obj106Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 12365184,
+            "byteOffset": 12364992,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -15144,7 +15144,7 @@
         {
             "name": "SA_Obj106Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 12386208,
+            "byteOffset": 12386016,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -15162,7 +15162,7 @@
         {
             "name": "SA_Obj106Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 8243456,
+            "byteOffset": 8243328,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -15182,7 +15182,7 @@
         {
             "name": "SA_Obj106Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 6015792,
+            "byteOffset": 6015728,
             "componentType": 5126,
             "count": 1752,
             "max": [
@@ -15212,7 +15212,7 @@
         {
             "name": "SA_Obj105Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 12407232,
+            "byteOffset": 12407040,
             "componentType": 5126,
             "count": 9132,
             "max": [
@@ -15230,7 +15230,7 @@
         {
             "name": "SA_Obj105Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 12516816,
+            "byteOffset": 12516624,
             "componentType": 5126,
             "count": 9132,
             "max": [
@@ -15248,7 +15248,7 @@
         {
             "name": "SA_Obj105Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 8271488,
+            "byteOffset": 8271360,
             "componentType": 5126,
             "count": 9132,
             "max": [
@@ -15268,7 +15268,7 @@
         {
             "name": "SA_Obj105Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 6029808,
+            "byteOffset": 6029744,
             "componentType": 5126,
             "count": 9132,
             "max": [
@@ -15298,7 +15298,7 @@
         {
             "name": "SA_Obj104Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 12626400,
+            "byteOffset": 12626208,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -15316,7 +15316,7 @@
         {
             "name": "SA_Obj104Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 12633312,
+            "byteOffset": 12633120,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -15334,7 +15334,7 @@
         {
             "name": "SA_Obj104Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 8417600,
+            "byteOffset": 8417472,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -15354,7 +15354,7 @@
         {
             "name": "SA_Obj104Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 6102864,
+            "byteOffset": 6102800,
             "componentType": 5126,
             "count": 576,
             "max": [
@@ -15384,7 +15384,7 @@
         {
             "name": "SA_Obj103Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 12640224,
+            "byteOffset": 12640032,
             "componentType": 5126,
             "count": 18171,
             "max": [
@@ -15402,7 +15402,7 @@
         {
             "name": "SA_Obj103Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 12858276,
+            "byteOffset": 12858084,
             "componentType": 5126,
             "count": 18171,
             "max": [
@@ -15420,7 +15420,7 @@
         {
             "name": "SA_Obj103Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 8426816,
+            "byteOffset": 8426688,
             "componentType": 5126,
             "count": 18171,
             "max": [
@@ -15440,7 +15440,7 @@
         {
             "name": "SA_Obj103Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 6107472,
+            "byteOffset": 6107408,
             "componentType": 5126,
             "count": 18171,
             "max": [
@@ -15470,7 +15470,7 @@
         {
             "name": "SA_Obj101Shape#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 13076328,
+            "byteOffset": 13076136,
             "componentType": 5126,
             "count": 11697,
             "max": [
@@ -15488,7 +15488,7 @@
         {
             "name": "SA_Obj101Shape#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 13216692,
+            "byteOffset": 13216500,
             "componentType": 5126,
             "count": 11697,
             "max": [
@@ -15506,7 +15506,7 @@
         {
             "name": "SA_Obj101Shape#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 8717552,
+            "byteOffset": 8717424,
             "componentType": 5126,
             "count": 11697,
             "max": [
@@ -15526,7 +15526,7 @@
         {
             "name": "SA_Obj101Shape#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 6252840,
+            "byteOffset": 6252776,
             "componentType": 5126,
             "count": 11697,
             "max": [
@@ -15556,7 +15556,7 @@
         {
             "name": "SA_ObjShape100#0/vertices/NORMAL",
             "bufferView": 1,
-            "byteOffset": 13357056,
+            "byteOffset": 13356864,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -15574,7 +15574,7 @@
         {
             "name": "SA_ObjShape100#0/vertices/POSITION",
             "bufferView": 1,
-            "byteOffset": 13365648,
+            "byteOffset": 13365456,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -15592,7 +15592,7 @@
         {
             "name": "SA_ObjShape100#0/vertices/TANGENT",
             "bufferView": 2,
-            "byteOffset": 8904704,
+            "byteOffset": 8904576,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -15612,7 +15612,7 @@
         {
             "name": "SA_ObjShape100#0/vertices/TEXCOORD_0",
             "bufferView": 3,
-            "byteOffset": 6346416,
+            "byteOffset": 6346352,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -15744,15 +15744,15 @@
         {
             "name": "shop design Ai 01 GLTF/data/indices-2",
             "buffer": 0,
-            "byteOffset": 29732108,
+            "byteOffset": 29731724,
             "byteLength": 791142,
             "target": 34963
         },
         {
             "name": "shop design Ai 01 GLTF/data/vertices-12",
             "buffer": 0,
-            "byteOffset": 8924240,
-            "byteLength": 13374240,
+            "byteOffset": 8924112,
+            "byteLength": 13374048,
             "byteStride": 12,
             "target": 34962
         },
@@ -15760,29 +15760,29 @@
             "name": "shop design Ai 01 GLTF/data/vertices-16",
             "buffer": 0,
             "byteOffset": 8080,
-            "byteLength": 8916160,
+            "byteLength": 8916032,
             "byteStride": 16,
             "target": 34962
         },
         {
             "name": "shop design Ai 01 GLTF/data/vertices-8",
             "buffer": 0,
-            "byteOffset": 22298480,
-            "byteLength": 6352144,
+            "byteOffset": 22298160,
+            "byteLength": 6352080,
             "byteStride": 8,
             "target": 34962
         },
         {
             "name": "shop design Ai 01 GLTF/data/indices-4",
             "buffer": 0,
-            "byteOffset": 28651028,
+            "byteOffset": 28650644,
             "byteLength": 1081080,
             "target": 34963
         },
         {
             "name": "shop design Ai 01 GLTF/data/generic-4",
             "buffer": 0,
-            "byteOffset": 28650624,
+            "byteOffset": 28650240,
             "byteLength": 404
         },
         {
@@ -15795,7 +15795,7 @@
     "buffers": [
         {
             "name": "shop design Ai 01 GLTF/data",
-            "byteLength": 30523250,
+            "byteLength": 30522866,
             "uri": "shop design Ai 01 GLTF0.bin"
         }
     ]

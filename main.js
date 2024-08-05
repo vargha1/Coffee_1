@@ -56,13 +56,23 @@ document.addEventListener("DOMContentLoaded", () => {
       x: 180,
       y: 8,
       z: 140,
-      duration: 1.4,
-      ease: "none",
-      onUpdate: function () {
-        controls.target = new T.Vector3(0, 13, 0)
-        controls.update()
-      },
+      duration: 6,
+      ease: "expo.inOut",
+      onStart: () => controls.enabled = false,
+      onComplete: () => controls.enabled = true,
     },)
+    gsap.to(controls.target, {
+      x: 0,
+      y: 13,
+      z: 0,
+      duration: 5,
+      ease: "expo.inOut",
+      onStart: () => controls.enabled = false,
+      onComplete: () => controls.enabled = true,
+      onUpdate: function () {
+        controls.update()
+      }
+    })
     document.getElementById("canvasHolder").appendChild(renderer.domElement);
     click.play()
     whoosh.play()
@@ -99,11 +109,24 @@ window.addEventListener('resize', () => {
 loader.load("shop design Ai 01 GLTF.gltf", function (gltf) {
   var mesh = gltf.scene;
   mesh.scale.set(0.2, 0.2, 0.2);
-  // mesh.traverseVisible((obj) => {
-  //   obj.layers.set(0)
-  // })
+  const planeGeo = new T.PlaneGeometry(450, 450)
+  const reflector = new Reflector(planeGeo, {
+    clipBias: 0.003,
+    textureWidth: window.innerWidth * window.devicePixelRatio,
+    textureHeight: window.innerHeight * window.devicePixelRatio,
+    color: 0x777777
+  });
+
+  console.log(mesh);
+  // reflector.position.y = 1
+  reflector.rotation.x = - Math.PI / 2;
+  scene.add(reflector);
   mesh.position.set(0, 1, 0);
   mesh.traverseVisible((obj) => {
+    if (obj.name == "SA_Obj126PIV") {
+      obj.material.transparent = true;
+      obj.material.opacity = 0.93;
+    }
     if (obj.name == "SA_Obj20PIV") obj.layers.toggle(BLOOM_SCENE)
     if (obj.name == "SA_Obj30PIV") obj.layers.toggle(BLOOM_SCENE)
     if (obj.name == "polySurface25PIV") obj.layers.toggle(BLOOM_SCENE)
@@ -118,8 +141,15 @@ loader.load("shop design Ai 01 GLTF.gltf", function (gltf) {
     if (obj.name == "SA_Obj8:PIV") obj.layers.toggle(BLOOM_SCENE)
     if (obj.name == "SA_Obj35PIV") obj.layers.toggle(BLOOM_SCENE)
     if (obj.name == "SA_Obj28Shape_1") obj.layers.toggle(BLOOM_SCENE)
+
     if (obj.name == "polySurface22PIV") {
-      obj.material = new T.MeshStandardMaterial({ map: new T.TextureLoader().load("./images/Test.png") })
+      new TextureLoader().load("./images/Test.png", function (texture) {
+        texture.wrapS = T.RepeatWrapping;
+        texture.repeat.x = 1;
+        texture.flipY = false;
+        obj.material = new T.MeshStandardMaterial({ map: texture });
+      })
+      // obj.layers.toggle(BLOOM_SCENE)
     }
     // if (obj.name == "SA_Obj29PIV") {
     //   const box = new T.Box3().setFromObject(obj);
@@ -254,15 +284,13 @@ finalComposer.addPass(mixPass);
 finalComposer.addPass(outputPass);
 
 const controls = new OrbitControls(camera, renderer.domElement)
-// controls.enablePan = false
+controls.enablePan = false
 controls.minPolarAngle = 1;
 controls.maxPolarAngle = 1.5;
 controls.minDistance = 0;
 controls.maxDistance = 2400;
 controls.rotateSpeed = 0.5;
 controls.update()
-const ambientLight = new T.AmbientLight(0xd5842c, 1.5)
-// scene.add(ambientLight)
 const spl = new T.SpotLight(0xe1ceb2, 10000000, 530, Math.PI / 2 + 1.2, 0.4)
 spl.position.set(0, 450, 0)
 spl.target.position.set(0, 2, 0)
@@ -289,6 +317,7 @@ function onMouseDown(event) {
   let intersections = raycaster.intersectObjects(scene.children, true);
   if (intersections.length > 0) {
     console.log(intersections[0].object);
+
     // intersections[0].object.layers.toggle(BLOOM_SCENE)
     if (intersections[0].object.name == "points") {
       const geo5 = intersections[0].object.geometry;
@@ -310,7 +339,7 @@ function onMouseDown(event) {
         gsap.to(vertex, {
           duration: 1.4,
           y: -25, // animate to a new random y position
-          z: Math.random() * 80,
+          z: Math.random() * 40 - 20,
           yoyo: true, // animate back to the original position
           onUpdate: () => {
             // Update the positions in the geometry
@@ -338,16 +367,23 @@ function onMouseDown(event) {
       click.play()
       whoosh.play()
       gsap.to(camera.position, {
-        x: 18,
+        x: 17,
         y: 15.5,
         z: -83,
-        duration: 2,
-        ease: "none",
-        onUpdate: function () {
-          controls.target = new T.Vector3(-1, 7, -86)
-          controls.update()
-        },
+        duration: 5,
+        ease: "expo.inOut",
+        onStart: () => controls.enabled = false,
+        onComplete: () => controls.enabled = true,
       },)
+      gsap.to(controls.target, {
+        x: -1,
+        y: 7,
+        z: -86,
+        duration: 5,
+        ease: "expo.inOut",
+        onStart: () => controls.enabled = false,
+        onComplete: () => controls.enabled = true,
+      })
     }
     if (intersections[0].object.name == "points1") {
       click.play()
@@ -356,13 +392,20 @@ function onMouseDown(event) {
         x: -28.5,
         y: 85,
         z: -85,
-        duration: 2,
-        ease: "none",
-        onUpdate: function () {
-          controls.target = new T.Vector3(-28.5, 85, 0)
-          controls.update()
-        },
+        duration: 5,
+        ease: "expo.inOut",
+        onStart: () => controls.enabled = false,
+        onComplete: () => controls.enabled = true,
       },)
+      gsap.to(controls.target, {
+        x: -28.5,
+        y: 85,
+        z: 0,
+        duration: 5,
+        ease: "expo.inOut",
+        onStart: () => controls.enabled = false,
+        onComplete: () => controls.enabled = true,
+      })
     }
     if (intersections[0].object.name == "points3") {
       click.play()
@@ -371,13 +414,20 @@ function onMouseDown(event) {
         x: 360,
         y: 5,
         z: 0,
-        duration: 2,
-        ease: "none",
-        onUpdate: function () {
-          controls.target = new T.Vector3(0, 5, 0)
-          controls.update()
-        },
+        duration: 5,
+        ease: "expo.inOut",
+        onStart: () => controls.enabled = false,
+        onComplete: () => controls.enabled = true,
       },)
+      gsap.to(controls.target, {
+        x: 0,
+        y: 5,
+        z: 0,
+        duration: 5,
+        ease: "expo.inOut",
+        onStart: () => controls.enabled = false,
+        onComplete: () => controls.enabled = true,
+      })
     }
   }
 }
@@ -402,27 +452,176 @@ function loading() {
   document.getElementById("loadingScreen").classList.add("hidden")
 }
 
-function addStars() {
-  const geometry = new T.SphereGeometry(0.3, 0.3, 0.3);
-  const mat = new T.MeshStandardMaterial({ color: 0xffffff })
-  const starsMesh = new T.Mesh(geometry, mat)
-  starsMesh.name = "star1";
+// function addStars() {
+//   const geometry = new T.SphereGeometry(0.3, 0.3, 0.3);
+//   const mat = new T.MeshStandardMaterial({ color: 0xffffff })
+//   const starsMesh = new T.Mesh(geometry, mat)
+//   starsMesh.name = "star1";
 
-  const [x, z] = Array(2).fill().map(() => T.MathUtils.randFloatSpread(2000))
-  const [y] = Array(1).fill().map(() => T.MathUtils.randFloatSpread(45))
+//   const [x, z] = Array(2).fill().map(() => T.MathUtils.randFloatSpread(450))
+//   const [y] = Array(1).fill().map(() => T.MathUtils.randFloatSpread(200))
 
-  starsMesh.position.set(x, 200 + y, z);
-  scene.add(starsMesh);
+//   starsMesh.position.set(x, 200 + y, z);
+//   scene.add(starsMesh);
+// }
+
+// Array(1000).fill().forEach(addStars)
+
+// scene.traverseVisible(obj => {
+//   if (obj.name == "star1") {
+//     const [y] = Array(1).fill().map(() => T.MathUtils.randFloatSpread(200))
+//     obj.position.y = 200 + y
+//     setTimeout(() => {
+//       // gsap.to(obj.position, {
+//       //   y: 3,
+//       //   duration: 6,
+//       //   yoyo: true
+//       // })
+//     }, 100)
+//   }
+// })
+
+let particles, pos = [], vel = [], isSnowing = false, isRaining = false, hasFlowers = false, rain, rainGeo, rainCount = 1600;
+const numSnowflakes = 1600;
+const maxRange = 500, minRange = maxRange / 2;
+const minHeight = 75;
+
+const geo6 = new T.BufferGeometry();
+window.addSnow = () => {
+  if (isSnowing || isRaining || hasFlowers) {
+    scene.remove(particles)
+    pos = [];
+    vel = [];
+    isSnowing = false;
+    isRaining = false;
+    hasFlowers = false;
+  } else if (!isSnowing) {
+    for (let i = 0; i < numSnowflakes; i++) {
+      pos.push(
+        Math.floor(Math.random() * maxRange - minRange),
+        Math.floor(Math.random() * minRange + minHeight),
+        Math.floor(Math.random() * maxRange - minRange))
+
+      vel.push(
+        Math.floor(Math.random() * 3 - 1.5) * 0.1,
+        1,
+        Math.floor(Math.random() * 3 - 1.5) * 0.1)
+    }
+    geo6.setAttribute("position", new T.Float32BufferAttribute(pos, 3))
+    geo6.setAttribute("velocity", new T.Float32BufferAttribute(vel, 3))
+
+    const flakeMat = new T.PointsMaterial({
+      size: 2,
+      map: new TextureLoader().load("images/12.png"),
+      blending: T.AdditiveBlending,
+      depthTest: true,
+      transparent: true,
+      opacity: 0.7
+    })
+    particles = new T.Points(geo6, flakeMat);
+    scene.add(particles)
+    isSnowing = true;
+    isRaining = false;
+    hasFlowers = false;
+  }
 }
 
-// Array(6400).fill().forEach(addStars)
-
-scene.traverseVisible(obj => {
-  if (obj.name == "star1") {
-    const [y] = Array(1).fill().map(() => T.MathUtils.randFloatSpread(8))
-    obj.position.y = 200 + y
+function updateParticles() {
+  if (particles) {
+    for (let i = 0; i < numSnowflakes * 3; i += 3) {
+      particles.geometry.attributes.position.array[i] -= particles.geometry.attributes.velocity.array[i];
+      particles.geometry.attributes.position.array[i + 1] -= particles.geometry.attributes.velocity.array[i + 1];
+      particles.geometry.attributes.position.array[i + 2] -= particles.geometry.attributes.velocity.array[i + 2];
+      if (particles.geometry.attributes.position.array[i + 1] < 0) {
+        particles.geometry.attributes.position.array[i] = Math.floor(Math.random() * maxRange - minRange);
+        particles.geometry.attributes.position.array[i + 1] = Math.floor(Math.random() * minRange + minHeight);
+        particles.geometry.attributes.position.array[i + 2] = Math.floor(Math.random() * maxRange - minRange);
+      }
+    }
+    particles.geometry.attributes.position.needsUpdate = true;
   }
-})
+}
+
+
+window.addRain = () => {
+  if (isRaining || isSnowing || hasFlowers) {
+    scene.remove(particles)
+    pos = [];
+    vel = [];
+    isRaining = false;
+    isSnowing = false;
+    hasFlowers = false;
+  } else if (!isRaining) {
+    for (let i = 0; i < rainCount; i++) {
+      pos.push(
+        Math.floor(Math.random() * maxRange - minRange),
+        Math.floor(Math.random() * minRange + minHeight),
+        Math.floor(Math.random() * maxRange - minRange))
+
+      vel.push(
+        Math.floor(Math.random() * 3 - 1.5) * 0.001,
+        5,
+        Math.floor(Math.random() * 3 - 1.5) * 0.001)
+    }
+    geo6.setAttribute("position", new T.Float32BufferAttribute(pos, 3))
+    geo6.setAttribute("velocity", new T.Float32BufferAttribute(vel, 3))
+
+    const flakeMat = new T.PointsMaterial({
+      size: 1,
+      map: new TextureLoader().load("images/rain.png"),
+      blending: T.AdditiveBlending,
+      depthTest: true,
+      transparent: true,
+      opacity: 0.7
+    })
+    particles = new T.Points(geo6, flakeMat);
+    scene.add(particles)
+    isRaining = true;
+    isSnowing = false;
+    hasFlowers = false;
+  }
+}
+
+window.addFlowers = () => {
+  if (isRaining || isSnowing || hasFlowers) {
+    scene.remove(particles)
+    pos = [];
+    vel = [];
+    isRaining = false;
+    isSnowing = false;
+    hasFlowers = false;
+  } else if (!hasFlowers) {
+    for (let i = 0; i < rainCount; i++) {
+      pos.push(
+        Math.floor(Math.random() * maxRange - minRange),
+        Math.floor(Math.random() * minRange + minHeight),
+        Math.floor(Math.random() * maxRange - minRange))
+
+      vel.push(
+        Math.floor(Math.random() * 3 - 1.5) * 0.001,
+        1,
+        Math.floor(Math.random() * 3 - 1.5) * 0.001)
+    }
+    geo6.setAttribute("position", new T.Float32BufferAttribute(pos, 3))
+    geo6.setAttribute("velocity", new T.Float32BufferAttribute(vel, 3))
+
+    const flakeMat = new T.PointsMaterial({
+      size: 1,
+      map: new TextureLoader().load("images/rain.png"),
+      blending: T.AdditiveBlending,
+      depthTest: true,
+      transparent: true,
+      opacity: 0.7
+    })
+    particles = new T.Points(geo6, flakeMat);
+    scene.add(particles)
+    isRaining = true;
+    isSnowing = false;
+    hasFlowers = false;
+  }
+}
+
+// addRain()
 
 function animate() {
   requestAnimationFrame(animate);
@@ -435,12 +634,24 @@ function animate() {
   // Calculate the rotation angles for each axis
   var angle = rotationSpeed * elapsedTime;
 
+  scene.traverse(obj => {
+    if (obj.name == "polySurface26Shape") {
+      obj.material.color.setHex("0x" + document.getElementById("color").value.slice(1))
+      obj.material.blendColor.setHex("0x" + document.getElementById("color").value.slice(1))
+      obj.material.map = null
+
+    }
+  })
+
   // Apply the rotation to the cube
   // points.rotation.x = angle; // Rotate around X axis
   points.rotation.y = angle; // Rotate around Y axis
   // points.rotation.z = angle;
   // console.log(camera.position);
-  controls.update()
+
+  updateParticles();
+
+  controls.update();
 
   scene.traverse(darkenNonBloomed);
   bloomComposer.render();

@@ -47,8 +47,43 @@ const materials = {};
 
 camera.position.set(-120, 150, 70)
 
+let elem = document.createElement('div');
+elem.className = "flex absolute h-[100dvh] items-center justify-center md:left-[20%] md:right-[20%] left-0 right-0"
+elem.id = "wrapper"
+elem.innerHTML = `
+    <div
+      class="flex md:flex-row flex-col relative bg-[#1d1f39] z-[26] h-fit rounded-[20px] flex-wrap transition-all duration-300"
+      id="popframe">
+      <form onsubmit="start()" class="flex flex-col px-5 py-1 justify-center items-center md:text-[16px] text-[10px] w-full">
+        <label class="py-2 text-white" for="name">Name of Restaurant</label>
+        <input type="text" name="name" class="px-2 py-1 border-zinc-500 border-2 rounded-[5px] text-black" id="name" required>
+        <button
+          class="text-[40px] text-white hover:text-violet-600" type="submit">
+          Start</button>
+      </form>
+    </div>
+    `
+document.getElementById("startSection").appendChild(elem)
+
 document.addEventListener("DOMContentLoaded", () => {
   window.start = () => {
+    event.preventDefault();
+    const textGeometry = new TextGeometry(event.target[0].value, {
+      font: font2,
+      size: 3,
+      depth: 0.6,
+    });
+    textGeometry.computeBoundingBox();
+    const textMat2 = new T.MeshStandardMaterial({ color: 0xffff00 })
+    const textMesh2 = new T.Mesh(textGeometry, textMat2)
+    textMesh2.position.set(11, 14, 10)
+    textMesh2.rotation.y = 1.55
+    const textMesh3 = new T.Mesh(textGeometry, textMat2)
+    textMesh3.position.set(4, 68, 10)
+    textMesh3.rotation.y = 1.55
+
+    scene.add(textMesh2)
+    scene.add(textMesh3)
     audio.setAttribute('src', "CityCrowd.mp3")
     audio.play()
     document.querySelector("#startSection").classList.add("hidden")
@@ -77,8 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
     click.play()
     whoosh.play()
     window.setTimeout(() => { ding.play() }, 1000)
-
-
     // window.setInterval(() => {
     //   scene.traverseVisible(obj => {
     //     if (obj.name == "rain") {
@@ -316,8 +349,6 @@ function onMouseDown(event) {
 
   let intersections = raycaster.intersectObjects(scene.children, true);
   if (intersections.length > 0) {
-    console.log(intersections[0].object);
-
     // intersections[0].object.layers.toggle(BLOOM_SCENE)
     if (intersections[0].object.name == "points") {
       const geo5 = intersections[0].object.geometry;
@@ -633,6 +664,7 @@ function animate() {
 
   // Calculate the rotation angles for each axis
   var angle = rotationSpeed * elapsedTime;
+  // console.log(camera.position);
 
   scene.traverse(obj => {
     if (obj.name == "polySurface26Shape") {

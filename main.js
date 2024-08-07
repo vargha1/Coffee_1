@@ -1,7 +1,7 @@
 import './style.css'
 import * as T from "three"
 import gsap from "gsap";
-import { CSS3DObject, CSS3DRenderer, OrbitControls, Reflector, TextGeometry, FontLoader, Font } from "three/examples/jsm/Addons.js";
+import { OrbitControls, Reflector, TextGeometry, FontLoader } from "three/examples/jsm/Addons.js";
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
@@ -9,6 +9,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass.js";
 import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
 import { TextureLoader } from "three";
+import { DRACOLoader } from 'three/examples/jsm/Addons.js';
 import RajdHani from "./RajdHani.json"
 
 const font2 = new FontLoader().parse(RajdHani)
@@ -16,6 +17,9 @@ const scene = new T.Scene();
 const camera = new T.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000)
 const loader = new GLTFLoader().setPath("./coffee/");
 const renderer = new T.WebGLRenderer({ antialias: true, alpha: true });
+const draco = new DRACOLoader()
+draco.setDecoderPath('/examples/jsm/libs/draco/');
+loader.setDRACOLoader(draco)
 
 const textGeometry2 = new TextGeometry('Design By Almubdieuntech.', {
   font: font2,
